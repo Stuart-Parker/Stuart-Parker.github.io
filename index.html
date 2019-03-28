@@ -25,10 +25,12 @@
             </ul>
             <p>Yup, this is surely a decent start.</p>
     
-            <p> The Current time is <?php $nowDate = new DateTime('l \, jS \of F Y', new DateTimeZone('America/New_York'));
-										  $nowTime = new DateTime( "H:i:s" ,new DateTimeZone('America/New_York'));
+            <p> The Current time is 
+			
+				<?php $nowDate = new DateTime();
+				$nowTime = new DateTime( "H:i:s" ,new DateTimeZone('America/New_York'));
 										  
-							echo nowTime;  ?> </p>
+				echo $nowDate;  ?> </p>
 							
 
     

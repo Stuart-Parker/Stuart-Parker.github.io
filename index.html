@@ -25,7 +25,12 @@
             </ul>
             <p>Yup, this is surely a decent start.</p>
     
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/jyIGhXNlF34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p> The Current time is <?php $nowDate = new DateTime('l \, jS \of F Y', new DateTimeZone('America/New_York'));
+										  $nowTime = new DateTime( "H:i:s" ,new DateTimeZone('America/New_York'));
+										  
+							echo $nowTime;  ?> </p>
+							
+
     
             
             

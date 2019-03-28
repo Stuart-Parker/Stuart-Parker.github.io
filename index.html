@@ -27,10 +27,14 @@
     
             <p> The Current time is 
 			
-				<?php $nowDate = new DateTime();
-				$nowTime = new DateTime( "H:i:s" ,new DateTimeZone('America/New_York'));
-										  
-				echo $nowDate;  ?> </p>
+				<?php 
+				$nowDate = new DateTime();
+				
+				?>
+				
+				<?=$nowDate?>
+
+				</p>
 							
 
     
